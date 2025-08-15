@@ -1,1 +1,2 @@
 "# Docker"
+" In above folders I've made two flask app, one uses mySQL database and one redis database. The one that uses mySQL datbase is just a simple application and puts its data in the database for storage purposes. The one that uses the redis is more complicated.This is because redis is a multi-purpose database. We have used it to count how many visits it gets. This can help you scale your application and to see what containers are in high demand. We also used NGNX to provide load balncing so our application can be more versitle and can handle high traffic"
