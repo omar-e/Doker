@@ -1,2 +1,2 @@
-"# Docker"
+
 " In the folders above, I made two Flask apps,one uses a MySQL database and the other uses Redis. The MySQL app is a basic program that saves its data in the database. On the other hand, the setup that uses a Redis database is more complex. Redis is a versatile, multi-purpose database, and in our case, we’ve used it to track the number of visits our application receives. This data can be useful for scaling the application and identifying which containers are in highest demand. Additionally, we implemented NGINX for load balancing, allowing the application to be more adaptable and capable of handling high traffic efficiently."
